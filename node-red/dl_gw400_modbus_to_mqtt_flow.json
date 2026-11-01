@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dl-gw400-edge-flow",
+    "type": "tab",
+    "label": "DL-GW400 4x RS485 to MQTT Edge Flow",
+    "info": "DeviceLab DL-GW400 Edge Gateway Flow (https://devicelab.vn/san-pham/dl-gw400/)"
+  },
+  {
+    "id": "modbus-flex-getter-bus1",
+    "type": "modbus-flex-getter",
+    "z": "dl-gw400-edge-flow",
+    "name": "Poll RS485-1 (/dev/ttyS1 - 3.0kV Isolated)",
+    "showStatusActivities": true,
+    "showErrors": true,
+    "wires": [["edge-filter-and- sqlite-buffer"], []]
+  },
+  {
+    "id": "edge-filter-and-sqlite-buffer",
+    "type": "function",
+    "z": "dl-gw400-edge-flow",
+    "name": "Normalize Float32 & Store-and-Forward Buffer",
+    "func": "msg.payload = {\n  gateway: 'DL-GW400',\n  ts: new Date().toISOString(),\n  data: msg.payload\n};\nreturn msg;",
+    "outputs": 1,
+    "wires": [["mqtt-out-tls"]]
+  }
+]
