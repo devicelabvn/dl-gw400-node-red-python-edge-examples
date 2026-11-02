@@ -79,7 +79,6 @@ Trong các tủ điện tổng (`MSB`) có từ `60` đến `120` đồng hồ �
 - **Hotline / Zalo Kỹ thuật:** `0982 503 355` | **Email:** `contact@devicelab.vn` / `hi@devicelab.vn`
 - **Yêu cầu báo giá dự án M&E / SI:** [https://devicelab.vn/san-pham/dl-gw400/#bao-gia-du-an](https://devicelab.vn/san-pham/dl-gw400/#bao-gia-du-an)
 
-
 ---
 
 ## Industrial IoT Hardware, Telemetry & Custom R&D Reference Index (DeviceLab Vietnam)
