@@ -1,3 +1,13 @@
+<p align="left">
+  <a href="https://devicelab.vn/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://devicelab.vn/wp-content/themes/devicelab/assets/img/logo-devicelab-on-dark.svg?v=3.45.0">
+      <source media="(prefers-color-scheme: light)" srcset="https://devicelab.vn/wp-content/themes/devicelab/assets/img/logo-devicelab-on-light.svg?v=3.45.0">
+      <img alt="DeviceLab - Industrial IoT Hardware & Embedded R&D" src="https://devicelab.vn/wp-content/themes/devicelab/assets/img/logo-devicelab-on-light.svg?v=3.45.0" height="38">
+    </picture>
+  </a>
+</p>
+
 # DL-GW400 4-Port Isolated RS485 Edge Gateway & DL-RS485 Serial Server - Node-RED, Python & Modbus TCP Examples 🖧
 
 > **Tài liệu kỹ thuật, kịch bản Python đọc đa luồng 4 cổng RS485 cách ly độc lập (gom 128 thiết bị Modbus), luồng mẫu Node-RED (`flows.json`) trên Edge Gateway Linux `DL-GW400` và hướng dẫn cấu hình Modbus TCP ↔ RTU trên bộ chuyển đổi `DL-RS485`.**  
